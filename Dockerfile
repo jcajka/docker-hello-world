@@ -5,4 +5,4 @@ LABEL "com.redhat.component"="docker-hello-world" \
       "version"="1.0"
 
 ENV x=y
-RUN env
+RUN env || :
